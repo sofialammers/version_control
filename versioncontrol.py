@@ -39,4 +39,6 @@ while game_continue:
         print("Your password has been encoded and stored!")
     elif option == 2:
         decoded_pwd = decode(decoded)
-        print("Your password is:", decoded_pwd)
+        print(f"The encoded password is {decoded}, and the original password is {decoded_pwd}.")
+    elif option == 3:
+        game_continue = False
